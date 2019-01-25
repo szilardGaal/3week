@@ -1,8 +1,8 @@
-# About
+How to complie:
+javac -d target/classes --source-path src src/com/sim/Main.java
 
-Repo for the _IntelliJ + Maven Quickstart_ assignment.
+How to run:
+java -cp target/classes com.sim.Main
 
-If you plan to use this repo as a "base" for one of your project change
-`<artifactId>intellij-maven-quickstart</artifactId>` to reflect what you're
-working on. E.g. `<artifactId>card-game-simulator-project</artifactId>` or
-similar.
+
+
